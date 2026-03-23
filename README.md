@@ -10,6 +10,7 @@ This project evaluates the effectiveness of a new in-store layout trial conducte
 
 ## Data Source
 The analysis utilizes the full QVI transaction dataset.
+
 **Note:** The `QVI_data.csv` file exceeds 25MB and is not included in this repository.
 
 ## Methodology
