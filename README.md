@@ -8,6 +8,10 @@ This project evaluates the effectiveness of a new in-store layout trial conducte
 *   **Trial Period:** February 2019 – April 2019
 *   **Pre-Trial Baseline:** July 2018 – January 2019
 
+## Data Source
+The analysis utilizes the full QVI transaction dataset.
+**Note:** The `QVI_data.csv` file exceeds 25MB and is not included in this repository.
+
 ## Methodology
 1.  **Data Preparation:** Monthly performance metrics (total sales, customer count, and transactions) were aggregated from the QVI dataset.
 2.  **Control Store Selection:** For each trial store, a matching control store was identified based on similarity in pre-trial performance. Selection was based on a composite score calculating the magnitude distance of sales, customer count, and transactions per customer.
@@ -16,7 +20,6 @@ This project evaluates the effectiveness of a new in-store layout trial conducte
 ## Repository Structure
 ```text
 .
-├── QVI_data.csv                   # Full transaction dataset
 ├── trial_analysis.R               # R script for analysis and visualization
 ├── README.md                      # Project documentation
 └── plots/                         # Generated visualization files
